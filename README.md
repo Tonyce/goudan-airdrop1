@@ -64,3 +64,10 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+```shell
+forge create --rpc-url https://rpc.degen.tips/http \
+   --constructor-args 0x0fc958281DBa627F4C63f952C04b574D77f2b049 0xf23c37c8bde34cc7ef198a443ae58d3f3efd9f8546c8f89d4fe22cdf32b15be0 \
+  --private-key xxx \
+  src/GoudanAirdrop.sol:GoudanAirdrop 
+```
